@@ -1,0 +1,4 @@
+/* sweetAlertStyles.css */
+.custom-swal-container {
+    z-index: 99999 !important; /* Set a high z-index value */
+}
