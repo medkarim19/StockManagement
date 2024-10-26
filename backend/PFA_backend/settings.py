@@ -133,11 +133,11 @@ WSGI_APPLICATION = 'PFA_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pfa',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'NAME': '',  #your database name
+        'USER': '', #your user for databases
+        'PASSWORD': '', #your password for your databases
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '', #your databases port
     }
 }
 
@@ -187,8 +187,8 @@ CORS_ALLOW_CREDENTIALS = True
 
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'mohamed-karim.bezine@enis.tn'
-EMAIL_HOST_PASSWORD ='Karim1824.'
+EMAIL_HOST_USER = '' #type your host email user
+EMAIL_HOST_PASSWORD ='' #type your password email user
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_TIMEOUT = 300 # in seconds
